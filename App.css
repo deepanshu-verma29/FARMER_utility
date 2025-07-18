@@ -1,0 +1,165 @@
+/* Other styles for smooth interactions */
+.auth-section a,
+.auth-section button {
+  background-color: #9932ff;   /* purple accent */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-section a:hover,
+.auth-section button:hover {
+  background-color: #4c0080;   /* darker purple */
+}
+
+/* Buttons for Auth section */
+.auth-section a,
+.auth-section button {
+  font-size: 16px;
+  color: white;
+  background-color: #6a0dad;   /* purple base */
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-section a:hover,
+.auth-section button:hover {
+  background-color: #4c0080;
+}
+
+/* Layout for Real-Time Crop Prices filters */
+.real-time-crop-prices {
+  background-color: #2e004f;   /* deep purple */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Centering the content area */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Premium style for primary action buttons */
+button {
+  background-color: #6a0dad;   /* purple base */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4c0080;   /* darker purple */
+}
+
+/* Ensuring header alignment and styling */
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Loading spinner styling */
+.loading {
+  font-size: 20px;
+  text-align: center;
+  color: #c084fc;              /* soft purple text */
+  padding: 50px;
+}
+
+/* Styles for CropPrices component */
+.crop-prices {
+  padding: 20px;
+  background-color: #1a0033;   /* dark purple */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.crop-prices h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.crop-prices .filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.crop-prices .dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.crop-prices label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #c084fc;              /* soft purple text */
+}
+
+.crop-prices select,
+.crop-prices .date-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9932ff; /* purple border */
+  border-radius: 4px;
+}
+
+.crop-prices .crop-table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.crop-prices th,
+.crop-prices td {
+  padding: 10px;
+  text-align: center;
+}
+
+.crop-prices th {
+  background-color: #6a0dad;   /* purple header */
+  color: white;
+}
+
+.crop-prices tr:nth-child(even) {
+  background-color: #2e004f;   /* alternating purple */
+}
+
+/* kkkk */
+/* Ensure root scroll works */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Make .App take full height and allow scroll */
+.App {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Prevent .content from being squished by navbar */
+.content {
+  flex: 1;
+  margin-top: 80px;
+}
